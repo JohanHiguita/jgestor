@@ -1,0 +1,215 @@
+
+
+.modal-body h5{
+  display: inline-block;
+}
+
+td a{
+  display: inline;
+}
+
+.fa-trash{
+  color:rgb(184, 47, 47);
+}
+
+.fa-eye{
+  color:rgb(44, 51, 209);
+}
+
+.fa-edit{
+  color:rgb(54, 147, 34);
+}
+
+.fa-trash:hover, .fa-eye:hover, .fa-edit:hover{
+  color:black;
+}
+.modal-body .contEditarForm{
+
+  width:80%;
+}
+#editarModal .modal-body{
+  margin: auto;
+}
+
+.contenedor_MensajeEnvio{
+  text-align: center;
+  background-color:#343a40;
+  height:100vh;
+
+}
+.MensajeEnvio{
+
+  width:50%;
+  background-color: #e9ecef;
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 25px 1px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 25px 1px rgba(0,0,0,1);
+  box-shadow: 0px 0px 25px 1px rgba(0,0,0,1);
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  border: 1px solid rgba(0,0,0,0);
+
+}
+
+.MensajeEnvio .contenidoMensaje{
+  text-align: left;
+  /* border: 1px solid red; */
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+
+}
+
+.MensajeEnvio .footer_mensajeEnvio{
+  /* border: 1px solid blue; */
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+input:-moz-read-only { /* For Firefox */
+    background-color: rgb(100, 100, 100);
+    cursor:not-allowed;
+}
+
+input:read-only {
+    background-color: rgb(225, 225, 225);
+    cursor:not-allowed;
+}
+
+.chartDescription{
+  text-align: center;
+}
+.chartDescription h5{
+  margin: 10px;
+}
+
+td{
+  text-align: center;
+}
+.nav-item .nav-link{
+  color: rgb(140, 140, 140);
+  font-weight: normal;
+}
+.nav-item .active{
+  color: black;
+  font-weight: bold;
+}
+
+.insumos_link a{
+  margin-right: 20px;
+
+}
+
+#msjNoResultados em{
+  color: rgb(43, 120, 252);
+}
+
+#msjNoResultados{
+  text-align: center;
+}
+
+#formAgregarInsumo i:hover{
+  color: blue;
+  cursor: pointer;
+}
+
+.alertaInsumos{
+  color: rgb(166, 22, 209);
+}
+.badgeAlertaInsumos, #card-insumos{
+  background-color: rgb(166, 22, 209);
+}
+
+.alertaCorrs{
+  color: rgb(226, 61, 25);
+}
+.badgeAlertaCorrs, #card-corrs {
+  background-color: rgb(226, 61, 25);
+}
+
+.alertaProcs{
+  color: rgb(29, 190, 94);
+}
+.badgeAlertaProcs, #card-procs{
+  background-color: rgb(29, 190, 94);
+}
+
+.alertaFV{
+  color: rgb(34, 55, 255);
+}
+.badgeAlertaFV, #card-fv{
+  background-color: rgb(34, 55, 255);
+}
+
+.contTablaAlertas{
+  text-align: center;
+}
+
+#card-cl{
+  background-color: #ffc107;
+}
+/* #tablaAlertasInsumos tbody{
+  background-color: rgb(48, 27, 122);
+  border: 3px solid red;
+} */
+
+#mainNav, #navbarResponsive{
+  /* background-color: rgb(182, 202, 218) !important; */
+
+}
+
+.nav-item span{
+  color:white  !important;;
+}
+
+.nav-item .fa-dashboard{
+color: rgb(179, 200, 51);
+}
+
+.nav-item .fa-database{
+color: rgb(103, 132, 255);
+}
+
+.nav-item .fa-plus-circle{
+color: rgb(0, 126, 20);
+}
+
+.nav-item .fa-area-chart{
+color: rgb(251, 94, 94);
+}
+
+#mainNav .navbar-brand{
+  color: rgb(0, 133, 218) !important;
+  font-weight: bold;
+  font-size: x-large;
+  text-shadow: 3px 3px 10px #000000;
+}
+
+#headerLogin .card-header{
+  text-align: center !important;
+  background-color: red !important;
+  border: 10px solid blue !important;
+  overflow: visible;
+
+}
+
+.alertaCL{
+  color: blue;
+}
+
+.fa-bell{
+  color: rgb(96, 97, 97);
+}
+
+#alertsDropdown{
+  color:black !important;
+}
+
+/* #salir{
+  color: black;
+} */
